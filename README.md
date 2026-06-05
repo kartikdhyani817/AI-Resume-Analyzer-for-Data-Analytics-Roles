@@ -1,4 +1,4 @@
-# AI Resume Analyzer Agent(Day-1)
+# AI Resume Analyzer Agent
 
 ## Project Overview
 
