@@ -4,7 +4,7 @@
 
 AI Resume Analyzer is a Python-based application designed for aspiring Data Analysts, Business Analysts, Data Scientists, and Data Analytics students.
 
-The system reads PDF resumes, extracts text, identifies analytics-related skills, calculates an ATS score, highlights missing skills, and provides suggestions for improvement.
+The system reads PDF resumes, extracts text, identifies analytics-related skills, calculates an ATS score, highlights missing skills, and provides AI-powered feedback to help improve resumes for analytics-related job roles.
 
 ## Target Users
 
@@ -31,9 +31,17 @@ The system reads PDF resumes, extracts text, identifies analytics-related skills
 * Resume Improvement Suggestions
 * ATS Report Generation
 
+### Day 3
+
+* AI Resume Review
+* Strengths Analysis
+* Weakness Analysis
+* Personalized Resume Feedback
+* Career Recommendations
+
 ## Skills Evaluated
 
-The current version evaluates resumes for the following analytics-related skills:
+The current version evaluates resumes for the following Data Analytics skills:
 
 * Python
 * SQL
@@ -68,23 +76,31 @@ Missing Skills Analysis
 
 ↓
 
-Resume Suggestions
+AI Resume Review
 
 ↓
 
-ATS Report Generation
+Career Recommendations
+
+↓
+
+Final Resume Feedback
 
 ## Technologies Used
 
 * Python
 * Google Colab
 * PyPDF2
+* Google Gemini API
+* Generative AI
 
-## Sample Output
+## Sample Analysis Output
 
-ATS Score: 70/100
+### ATS Score
 
-Matched Skills:
+ATS Score: 50/100
+
+### Skills Found
 
 * Python
 * SQL
@@ -92,33 +108,46 @@ Matched Skills:
 * Pandas
 * NumPy
 
-Missing Skills:
+### Missing Skills
 
 * Power BI
 * Tableau
 * Statistics
 
-Suggestions:
+### Suggestions
 
-* Add analytics visualization tools.
-* Include more industry-relevant skills.
-* Quantify project achievements where possible.
+* Add data visualization tools.
+* Include measurable project outcomes.
+* Highlight business impact of projects.
+* Add certifications relevant to analytics roles.
 
-## Upcoming Features
+## Project Structure
 
-### Day 3
+```text
+AI-Resume-Analyzer/
 
-* AI-Powered Resume Review
-* Personalized Resume Feedback
+├── Resume_Analyzer.ipynb
+└── README.md
+```
 
-### Day 4
+## Upcoming Features (Day 4)
 
-* Job Recommendation Engine
 * Interview Question Generator
+* Cover Letter Generator
+* Resume Summary Generator
+* Project Documentation Improvements
+
+## Future Enhancements
+
+* Multi-Resume Comparison
+* Resume Ranking System
+* Job Description Matching
+* Resume Keyword Optimization
+* Streamlit Web Application
 
 ## Project Status
 
-Current Status: Day 2 of Development
+Current Status: Day 3 of Development
 
 ## Author
 
