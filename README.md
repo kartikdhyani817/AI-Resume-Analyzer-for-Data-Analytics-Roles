@@ -4,7 +4,7 @@
 
 AI Resume Analyzer is a Python-based application designed for aspiring Data Analysts, Business Analysts, Data Scientists, and Data Analytics students.
 
-The system reads PDF resumes, extracts text, identifies analytics-related skills, calculates an ATS score, highlights missing skills, and provides AI-powered feedback to help improve resumes for analytics-related job roles.
+The system reads PDF resumes, extracts text, calculates ATS scores, identifies missing skills, provides AI-powered feedback, recommends career paths, generates interview questions, creates cover letters, and produces professional summaries.
 
 ## Target Users
 
@@ -12,36 +12,46 @@ The system reads PDF resumes, extracts text, identifies analytics-related skills
 * Business Analysts
 * Data Scientists
 * Data Analytics Students
-* Freshers preparing for analytics roles
+* Freshers preparing for analytics careers
 
-## Features Completed
+## Features
 
-### Day 1
+### Resume Processing
 
 * PDF Upload
 * PDF Text Extraction
 * Resume Statistics
-* Basic Skill Detection
-* Text Export
+* Skill Detection
 
-### Day 2
+### ATS Analysis
 
 * ATS Score Generation
 * Missing Skills Detection
 * Resume Improvement Suggestions
-* ATS Report Generation
 
-### Day 3
+### AI Resume Review
 
-* AI Resume Review
 * Strengths Analysis
 * Weakness Analysis
-* Personalized Resume Feedback
+* Personalized Feedback
+
+### Career Guidance
+
 * Career Recommendations
+* Job Role Suggestions
+
+### Interview Preparation
+
+* Technical Questions
+* SQL Questions
+* Behavioral Questions
+
+### Job Application Support
+
+* Cover Letter Generation
+* Professional Summary Generation
 
 ## Skills Evaluated
-
-The current version evaluates resumes for the following Data Analytics skills:
 
 * Python
 * SQL
@@ -54,6 +64,14 @@ The current version evaluates resumes for the following Data Analytics skills:
 * NumPy
 * Data Analysis
 
+## Technologies Used
+
+* Python
+* Google Colab
+* PyPDF2
+* Google Gemini API
+* Generative AI
+
 ## Project Workflow
 
 Resume PDF
@@ -64,15 +82,11 @@ Text Extraction
 
 ↓
 
-Skill Detection
+Skill Analysis
 
 ↓
 
-ATS Score Calculation
-
-↓
-
-Missing Skills Analysis
+ATS Scoring
 
 ↓
 
@@ -84,72 +98,30 @@ Career Recommendations
 
 ↓
 
-Final Resume Feedback
+Interview Questions
 
-## Technologies Used
+↓
 
-* Python
-* Google Colab
-* PyPDF2
-* Google Gemini API
-* Generative AI
+Cover Letter Generation
 
-## Sample Analysis Output
+↓
 
-### ATS Score
-
-ATS Score: 50/100
-
-### Skills Found
-
-* Python
-* SQL
-* Excel
-* Pandas
-* NumPy
-
-### Missing Skills
-
-* Power BI
-* Tableau
-* Statistics
-
-### Suggestions
-
-* Add data visualization tools.
-* Include measurable project outcomes.
-* Highlight business impact of projects.
-* Add certifications relevant to analytics roles.
-
-## Project Structure
-
-```text
-AI-Resume-Analyzer/
-
-├── Resume_Analyzer.ipynb
-└── README.md
-```
-
-## Upcoming Features (Day 4)
-
-* Interview Question Generator
-* Cover Letter Generator
-* Resume Summary Generator
-* Project Documentation Improvements
+Professional Summary
 
 ## Future Enhancements
 
-* Multi-Resume Comparison
 * Resume Ranking System
+* Resume Comparison
 * Job Description Matching
-* Resume Keyword Optimization
 * Streamlit Web Application
+* Multi-Resume Analysis
 
 ## Project Status
 
-Current Status: Day 3 of Development
+Completed
 
 ## Author
 
 Kartik Dhyani
+
 
